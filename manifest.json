@@ -1,0 +1,16 @@
+{
+    "name": "知乎深浅主题切换",
+    "version": "1.0",
+    "description": "根据系统主题切换知乎深浅主题",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.zhihu.com/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}
